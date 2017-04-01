@@ -1,0 +1,30 @@
+public class Persona{
+  private int diasEnfermo;
+  private int temperatura;
+  private List<Enfermedad> enfermedades;
+
+  public void contraer(enfermedad){
+
+  }
+  public void vivir(){}
+  public void vivir(numeroDias){}
+  public void enfermedadMasInvasiva(){}
+}
+public abstract class Enfermedad{
+    private string nombre;
+    private int celulasAmenazadas;
+    private int cantidadDias;
+    private Persona persona;
+
+    public bool esAgresiva();
+    public void afectar();
+}
+
+public class Infecciosa inherits Enfermedad{
+    public void reproducirse()
+    public void aumentarTemperatura()
+}
+
+public class AutoInmune inherits Enfermedad{
+    public void destruir(){}
+}
